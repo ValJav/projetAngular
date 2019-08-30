@@ -1,0 +1,25 @@
+<div class="formulaire">
+    <h1>Enigma creation</h1>
+    <form [formGroup]="creationForm">
+        <mat-form-field>
+            <input matInput formControlName="titre" placeholder="Title" />
+        </mat-form-field>
+        <mat-form-field>
+            <textarea matInput formControlName="enigme" placeholder="Enigma"></textarea>
+        </mat-form-field>
+        <mat-form-field>
+            <textarea matInput formControlName="reponse" placeholder="Answer"></textarea>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-select matInput formControlName="level" required>
+                <mat-option style="background-color: cadetblue; font-family: 'Press Start 2P', cursive" value="JUNIOR">JUNIOR</mat-option>
+                <mat-option style="background-color: lightgreen; font-family: 'Press Start 2P', cursive" value="EASY">EASY</mat-option>
+                <mat-option style="background-color: navajowhite; font-family: 'Press Start 2P', cursive" value="MEDIUM">MEDIUM</mat-option>
+                <mat-option style="background-color: orange; font-family: 'Press Start 2P', cursive" value="HARD">HARD</mat-option>
+                <mat-option style="background-color: orangered; font-family: 'Press Start 2P', cursive" value="NIGHTMARE">NIGHTMARE</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <br>
+        <button *ngIf="!isEditing" (click)="validationForm()" mat-raised-button style="margin: 5px">Valider</button>
+    </form>
+</div>

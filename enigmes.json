@@ -1,0 +1,81 @@
+{
+  "enigmes": [
+    {
+      "id": 0,
+      "titre": "Titre de ma première énigme",
+      "enigme": "Intitulé de ma première énigme",
+      "reponse": "Intitulé de ma première énigme",
+      "level": "EASY"
+    },
+    {
+      "titre": "gdhdrhfgncvaazaz",
+      "enigme": "aaaaaaaaaaaaaa",
+      "reponse": "aaaaaaaaaaaaaa",
+      "level": "EASY",
+      "id": 1
+    },
+    {
+      "titre": "zzzzzzzzzzzzzzzzzz",
+      "enigme": "zzzzzzzzzzzzzz",
+      "reponse": "zzzzzzzzzzzzzz",
+      "level": "MEDIUM",
+      "id": 2
+    },
+    {
+      "titre": "eeeeeeeeeeeeeee",
+      "enigme": "eeeeeeeeeeeeeeee",
+      "reponse": "eeeeeeeeeeeeeeee",
+      "level": "MEDIUM",
+      "id": 3
+    },
+    {
+      "titre": "rrrrrrrrrrrrrr",
+      "enigme": "rrrrrrrrrrrrrrr",
+      "reponse": "rrrrrrrrrrrrrrr",
+      "level": "HARD",
+      "id": 4
+    },
+    {
+      "titre": "tttttttttttt",
+      "enigme": "tttttttttttttt",
+      "reponse": "tttttttttttttt",
+      "level": "HARD",
+      "id": 5
+    },
+    {
+      "titre": "tttttttttttt",
+      "enigme": "tttttttttttttt",
+      "reponse": "tttttttttttttt",
+      "level": "NIGHTMARE",
+      "id": 6
+    },
+    {
+      "titre": "tttttttttttt",
+      "enigme": "tttttttttttttt",
+      "reponse": "tttttttttttttt",
+      "level": "NIGHTMARE",
+      "id": 7
+    },
+    {
+      "titre": "tttttttttttt",
+      "enigme": "tttttttttttttt",
+      "reponse": "tttttttttttttt",
+      "level": "JUNIOR",
+      "id": 9
+    },
+    {
+      "titre": "Titre",
+      "enigme": "La réponse est évidente",
+      "reponse": "évidente",
+      "level": "EASY",
+      "id": 10
+    },
+    {
+      "titre": "dfgdfgdfg",
+      "enigme": "blablablabla",
+      "reponse": "blablablabla",
+      "level": "JUNIOR",
+      "id": 11
+    }
+  ]
+}

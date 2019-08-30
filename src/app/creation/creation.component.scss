@@ -1,0 +1,28 @@
+.formulaire {
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    background-color: rgba($color: lightgrey, $alpha: 1);
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+mat-form-field {
+    display: block;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+button {
+    font-family: 'Press Start 2P', cursive;
+    border: 1px solid whitesmoke;
+    background-color: black;
+    color: grey;
+}
+
+mat-select {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}

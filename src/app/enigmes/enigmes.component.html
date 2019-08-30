@@ -1,0 +1,18 @@
+<div>
+    <div *ngFor="let e of enigmes">
+
+        <mat-card class="{{e?.level}}">
+
+            <mat-card-header>
+                <mat-card-title>{{e?.titre}}</mat-card-title>
+            </mat-card-header>
+            <mat-card-content style="margin-top: 20px">
+                {{e?.enigme}}
+            </mat-card-content>
+            <mat-card-actions>
+                <button mat-button routerLink="/enigme/{{e.id}}" color="primary">SOLVE</button>
+            </mat-card-actions>
+        </mat-card>
+
+    </div>
+</div>

@@ -1,0 +1,39 @@
+mat-card {
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.JUNIOR {
+    background-color: cadetblue;
+}
+
+.EASY {
+    background-color: lightgreen;
+}
+
+.MEDIUM {
+    background-color: navajowhite;
+}
+
+.HARD {
+    background-color: orange;
+}
+
+.NIGHTMARE {
+    background-color: orangered;
+}
+
+button {
+    font-family: 'Press Start 2P', cursive;
+    border: 1px solid whitesmoke;
+    background-color: black;
+    color: grey;
+}

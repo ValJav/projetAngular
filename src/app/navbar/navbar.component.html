@@ -1,0 +1,9 @@
+<button mat-button [matMenuTriggerFor]="menu" style="border: 1px solid grey; background-color: black; color: grey">Menu</button>
+<mat-menu #menu="matMenu">
+    <button mat-menu-item routerLink="/enigmes/junior" style="background-color: cadetblue">LEVELS JUNIOR</button>
+    <button mat-menu-item routerLink="/enigmes/easy" style="background-color: lightgreen">LEVELS EASY</button>
+    <button mat-menu-item routerLink="/enigmes/medium" style="background-color: navajowhite">LEVELS MEDIUM</button>
+    <button mat-menu-item routerLink="/enigmes/hard" style="background-color: orange">LEVELS HARD</button>
+    <button mat-menu-item routerLink="/enigmes/nightmare" style="background-color: orangered">LEVELS NIGHTMARE</button>
+    <button mat-menu-item routerLink="/creation" style="background-color: grey">CREATE ENIGMA</button>
+</mat-menu>
